@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantBilling.Core/App.cs">
+    <Files>
+      <File FileName="RestaurantBilling.Core/Services/IBillCalculator.cs" Line="8" Column="57" />
+      <File FileName="RestaurantBilling.Core/Services/BillCalculator.cs" Line="13" Column="60" />
+      <File FileName="RestaurantBilling.Core/ViewModels/BillViewModel.cs" Line="24" Column="76" />
+      <File FileName="RestaurantBilling.Core/ViewModels/MainMenuViewModel.cs" Line="14" Column="94" />
+      <File FileName="RestaurantBilling.Core/App.cs" Line="16" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

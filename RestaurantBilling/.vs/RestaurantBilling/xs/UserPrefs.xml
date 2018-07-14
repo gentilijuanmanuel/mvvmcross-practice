@@ -1,17 +1,23 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantBilling.Core/App.cs">
+﻿<Properties StartupConfiguration="{EB5875CD-EB60-40F9-9871-A47B0345CC81}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantBilling.Core/ViewModels/BillViewModel.cs">
     <Files>
-      <File FileName="RestaurantBilling.Core/Services/IBillCalculator.cs" Line="8" Column="57" />
-      <File FileName="RestaurantBilling.Core/Services/BillCalculator.cs" Line="13" Column="60" />
-      <File FileName="RestaurantBilling.Core/ViewModels/BillViewModel.cs" Line="24" Column="76" />
-      <File FileName="RestaurantBilling.Core/ViewModels/MainMenuViewModel.cs" Line="14" Column="94" />
-      <File FileName="RestaurantBilling.Core/App.cs" Line="16" Column="10" />
+      <File FileName="RestaurantBilling.Core/ViewModels/BillViewModel.cs" Line="21" Column="33" />
+      <File FileName="RestaurantBilling.Core/Services/BillCalculator.cs" Line="12" Column="35" />
+      <File FileName="RestaurantBilling.Core/Services/IBillCalculator.cs" Line="7" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCrossSamples/TipCalc/TipCalc.Core/ViewModels/TipViewModel.cs" line="45" column="1" />
+      <Breakpoint file="/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCrossSamples/TipCalc/TipCalc.Core/Services/CalculationService.cs" line="7" column="1" />
+      <Breakpoint file="/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCrossSamples/TipCalc/TipCalc.Core/ViewModels/TipViewModel.cs" line="20" column="1" />
+      <Breakpoint file="/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCrossSamples/TipCalc/TipCalc.Core/ViewModels/TipViewModel.cs" line="21" column="1" />
+      <Breakpoint file="/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCrossSamples/TipCalc/TipCalc.Core/ViewModels/TipViewModel.cs" line="22" column="23" />
+      <Breakpoint file="/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCrossSamples/TipCalc/TipCalc.Core/ViewModels/TipViewModel.cs" line="32" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RestaurantBilling.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" HideGettingStarted="True" />
 </Properties>

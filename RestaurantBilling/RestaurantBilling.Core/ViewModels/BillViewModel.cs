@@ -1,37 +1,35 @@
-﻿using RestaurantBilling.Core.Services;
+﻿using System.Threading.Tasks;
 using MvvmCross.ViewModels;
-using System.Windows.Input;
-using MvvmCross.Commands;
+using RestaurantBilling.Core.Services;
 
 namespace RestaurantBilling.Core.ViewModels
 {
     public class BillViewModel : MvxViewModel
     {
+        readonly IBillCalculator _calculationService;
 
-        //Mvvm properties
-        readonly IBillCalculator _calculation;
-        private string _customerEmail;
-        double _subtotal;
-        int _gratuity;
-        double _tip;
-        double _total;
-
-        //Command to navigate back to this ViewModel.
-        public ICommand NavBack
+        public BillViewModel(IBillCalculator calculationService)
         {
-            get
-            {
-                //small change in Close(). It's a NavigationService method.
-                return new MvxCommand(() => this.NavigationService.Close(this));
-            }
+            this._calculationService = calculationService;
         }
 
+        //MVVM Methods
+        public override async Task Initialize()
+        {
+            await base.Initialize();
+
+            this.SubTotal = 100;
+            this.Gratuity = 10;
+
+            this.Recalculate();
+        }
+
+        //Private properties
+
+        private string _customerEmail;
         public string CustomerEmail
         {
-            get
-            {
-                return _customerEmail;
-            }
+            get => _customerEmail;
             set
             {
                 _customerEmail = value;
@@ -39,12 +37,10 @@ namespace RestaurantBilling.Core.ViewModels
             }
         }
 
+        private double _subtotal;
         public double SubTotal
         {
-            get
-            {
-                return _subtotal;
-            }
+            get => _subtotal;
             set
             {
                 _subtotal = value;
@@ -53,13 +49,10 @@ namespace RestaurantBilling.Core.ViewModels
             }
         }
 
+        private int _gratuity;
         public int Gratuity
         {
-            get
-            {
-                return _gratuity;
-            }
-
+            get => _gratuity;
             set
             {
                 _gratuity = value;
@@ -68,13 +61,10 @@ namespace RestaurantBilling.Core.ViewModels
             }
         }
 
+        private double _tip;
         public double Tip
         {
-            get
-            {
-                return _tip;
-            }
-
+            get => _tip;
             set
             {
                 _tip = value;
@@ -82,44 +72,22 @@ namespace RestaurantBilling.Core.ViewModels
             }
         }
 
+        private double _total;
         public double Total
         {
-            get
-            {
-                return _total;
-            }
-
+            get => _total;
             set
             {
                 _total = value;
                 RaisePropertyChanged(() => Total);
-                this.Recalculate();
             }
-        }
-
-        //constructor with Dependency Injection
-        public BillViewModel(IBillCalculator calculation)
-        {
-            this._calculation = calculation;
-        }
-
-        public void Init(int subtotal)
-        {
-            SubTotal = SubTotal;
-        }
-
-        public override void Start()
-        {
-            _gratuity = 10;
-            Recalculate();
-            base.Start();
         }
 
         //Private Methods
         public void Recalculate()
         {
-            Tip = _calculation.TipAmount(SubTotal, Gratuity);
-            Total = _calculation.BillTotal(SubTotal, Gratuity);
+            Tip = _calculationService.TipAmount(SubTotal, Gratuity);
+            Total = _calculationService.BillTotal(SubTotal, Tip);
         }
     }
 }

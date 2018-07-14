@@ -7,3 +7,12 @@
 /Users/juanmanuelgentili/Development/Xamarin/MvvmCross/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.AssemblyInfo.cs
 /Users/juanmanuelgentili/Development/Xamarin/MvvmCross/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.dll
 /Users/juanmanuelgentili/Development/Xamarin/MvvmCross/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.pdb
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/bin/Debug/netstandard2.0/RestaurantBilling.Core.deps.json
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/bin/Debug/netstandard2.0/RestaurantBilling.Core.dll
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/bin/Debug/netstandard2.0/RestaurantBilling.Core.pdb
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.csprojResolveAssemblyReference.cache
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.csproj.CoreCompileInputs.cache
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.AssemblyInfoInputs.cache
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.AssemblyInfo.cs
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.dll
+/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/obj/Debug/netstandard2.0/RestaurantBilling.Core.pdb

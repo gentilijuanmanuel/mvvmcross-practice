@@ -223,11 +223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/RestaurantBilling/RestaurantBilling.Core/RestaurantBilling.Core.csproj",
+      "projectUniqueName": "/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/RestaurantBilling.Core.csproj",
       "projectName": "RestaurantBilling.Core",
-      "projectPath": "/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/RestaurantBilling/RestaurantBilling.Core/RestaurantBilling.Core.csproj",
+      "projectPath": "/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/RestaurantBilling.Core.csproj",
       "packagesPath": "/Users/juanmanuelgentili/.nuget/packages/",
-      "outputPath": "/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/RestaurantBilling/RestaurantBilling.Core/obj",
+      "outputPath": "/Users/juanmanuelgentili/Development/Xamarin/MvvmCross/MvvmCross-Practice/RestaurantBilling/RestaurantBilling.Core/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

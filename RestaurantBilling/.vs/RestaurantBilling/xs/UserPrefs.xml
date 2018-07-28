@@ -1,11 +1,5 @@
-﻿<Properties StartupConfiguration="{EB5875CD-EB60-40F9-9871-A47B0345CC81}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantBilling.Core/ViewModels/BillViewModel.cs">
-    <Files>
-      <File FileName="RestaurantBilling.Core/ViewModels/BillViewModel.cs" Line="21" Column="33" />
-      <File FileName="RestaurantBilling.Core/Services/BillCalculator.cs" Line="12" Column="35" />
-      <File FileName="RestaurantBilling.Core/Services/IBillCalculator.cs" Line="7" Column="53" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{9BE5EF34-F944-45E5-9897-EB2030FC7265}|Default">
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -19,5 +13,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RestaurantBilling.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.284CC8B5-A802-448A-B981-472687B72D70" HideGettingStarted="True" automaticSigning="False" />
   <MonoDevelop.Ide.ItemProperties.RestaurantBilling.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" HideGettingStarted="True" />
 </Properties>
